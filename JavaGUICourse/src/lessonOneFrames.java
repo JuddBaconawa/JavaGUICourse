@@ -17,7 +17,7 @@ public class lessonOneFrames {
 
 			ImageIcon image = new ImageIcon("logo.png");    //creates an ImageIcon for the window
 			frame.setIconImage(image.getImage());   //change the icon of the frame - pictures need added
-			frame.getContentPane().setBackground(Color.green);  //change the color of the background
+			frame.getContentPane().setBackground(new Color(123, 52, 250, 150));  //change the color of the background
 	}
 	
 }
